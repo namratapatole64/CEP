@@ -1,0 +1,6 @@
+flask
+speechrecognition
+pyaudio
+nltk
+sumy
+

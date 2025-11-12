@@ -1,0 +1,50 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0066ff;
+    margin-bottom: 10px;
+}
+
+.upload-section {
+    margin: 20px 0;
+}
+
+button {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004dc1;
+}
+
+.output {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.output h2 {
+    color: #333;
+    margin-top: 20px;
+}

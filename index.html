@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎙️ Live Lecture Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎧 Voice-to-Text Lecture Summarizer</h1>
+        <p>Upload or record your lecture and get a summarized version instantly.</p>
+
+        <div class="upload-section">
+            <input type="file" id="audioInput" accept="audio/*">
+            <button id="uploadBtn">Transcribe & Summarize</button>
+        </div>
+
+        <div class="output">
+            <h2>🗣️ Transcribed Text</h2>
+            <p id="textOutput">---</p>
+
+            <h2>📝 Summary</h2>
+            <p id="summaryOutput">---</p>
+
+            <h2>🔑 Keywords</h2>
+            <p id="keywordsOutput">---</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
